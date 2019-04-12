@@ -1,0 +1,12 @@
+Workouts.java
+1. Enums don't have to declared static since they are static by default just like classes are
+public by default
+2. A nested class allows for a greater level of abstraction and modularity as well as allowing cleaner refactoring
+in the future.
+3. We can get the name of the enumeration value by calling the valueOf function of the static enumeration
+4. Short-Circuit evaluation makes it so that the ancillary statements in an if statement will be ignored if the first parameter
+in an and sequence is false
+FileAccess.java
+1. A try catch block allows for the controlled handling of erraneous behavior such as files or data not existing.
+We need one in the chance case that the file we are trying to read doesn't exist or other I/O problems
+2. An exception is an error which inhibits the future execution of the program unless appropriately handled
